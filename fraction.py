@@ -51,3 +51,6 @@ class Fraction:
         denom = self.__denom * frac2.__num
         answer = Fraction(num, denom)
         return answer
+
+    def read(self):
+        return self.__num + "/" + self.__denom
